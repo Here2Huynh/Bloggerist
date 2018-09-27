@@ -9,6 +9,9 @@ const post = (props) => (
             <div className="Author">{props.author}</div>
         </div>
     </article>
-);
+)
+
 
 export default post;
+// withRouter adds props to componenets wrapper with it 
+// export default withRouter(post);

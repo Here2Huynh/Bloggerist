@@ -42,7 +42,8 @@ class Posts extends Component {
                             title={post.title} 
                             author={post.author} 
                             clicked={() => this.postSelectHandler(post.id)}
-                        />
+                            // {...this.props} to pass props down 
+                            />
             });
         }
 
